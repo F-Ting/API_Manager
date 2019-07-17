@@ -1,0 +1,29 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "API Wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F-Ting/Stock_Predictor.git"
+  },
+  "author": "Daniel Chen, Mike Chan, Alan Chen, Derek Wayne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/F-Ting/Stock_Predictor/issues"
+  },
+  "homepage": "https://github.com/F-Ting/Stock_Predictor#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.0.0",
+    "express-session": "^1.15.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
